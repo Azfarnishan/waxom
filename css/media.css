@@ -1,0 +1,38 @@
+
+ /* Extra large devices */
+ @media (min-width: 1200px) { }
+ 
+ /* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+  /* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+  /* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+  /* Extra small devices  */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /* header part */
+    .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-nav {
+        background: teal;
+        text-align: center;
+    }
+    .banner_overly {
+        padding: 150px 0;
+    }
+    /* header part */
+    /* banner part */
+    .banner_text h3 {
+        font-size: 30px;
+    }
+    .banner_text h1 {
+        font-size: 40px;
+        font-weight: 700;
+   }
+}
+    /* banner part */
+    /* header part */
